@@ -1,0 +1,7 @@
+All files are self-sustained c++ files (with possible duplicated code). That is each file has its own main function. 
+
+To compile, please use a standard (C++11) g++ compiler. Enable -mssse3 -msse4.1 extensions and to enable auto-vectorization, add -ftree-vectorize as a compiler flag
+
+Eg. 
+g++ -mssse3 -msse4.1 -ftree-autovectorize mat_mat_simple.cpp
+
